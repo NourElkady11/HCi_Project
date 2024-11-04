@@ -522,7 +522,6 @@ public class TuioDemo : Form, TuioListener
                 return null;
             }
         }
-
         public void CloseConnection()
         {
             stream?.Close();
